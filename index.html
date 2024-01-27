@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Centered Text</title>
     <style>
         body {
             display: flex;
@@ -11,30 +11,23 @@
             justify-content: center;
             height: 100vh;
             margin: 0;
-            font-weight: bold;
             font-family: 'Helvetica', sans-serif;
         }
 
-        .centered-text {
+        .title {
             text-align: center;
+            font-weight: bold;
             font-size: 48px; 
         }
-    </style>
-    <title>Subtitle</title>
-    <style>
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            font-weight: lighter;
-            font-family: 'Helvetica', sans-serif;
-        }
 
-        .centered-text {
+        .subtitle {
             text-align: center;
+            font-weight: lighter;
             font-size: 24px; 
+        }
+        
+        .subtitle {
+            display: block; /* Make it a block-level element */
         }
     </style>
 </head>
@@ -42,7 +35,7 @@
     <div class="title">
         Casi Knibbs
     </div>
-    <div class="Subtitle">
+    <div class="subtitle">
         Full Stack Developer
     </div>
 </body>
