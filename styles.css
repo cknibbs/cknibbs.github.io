@@ -1,0 +1,102 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+}
+
+main {
+    margin: 0;
+}
+
+h1 {
+    color: #000000;
+    margin: 0;
+    padding: 4px;
+}
+
+h2 {
+    color: #111111;
+    margin: 0;
+}
+
+h3 {
+    color: #222222;
+    margin: 0;
+}
+
+h4 {
+    color: #333333;
+    margin: 0;
+}
+
+h5 {
+    color: #444444;
+    margin: 0;
+}
+
+h6 {
+    color: #555555;
+    margin: 0;
+    
+}
+
+p {
+    color: #888888;
+    font-weight: lighter;
+    margin: 0;
+    padding: 4px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 18%;
+    /* border: solid grey 1px; */
+}
+
+.vStackCenter {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    /* border: solid grey 1px; */
+}
+
+.vStackLeading {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    /* border: solid grey 1px; */
+}
+
+.hStack {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 800px;
+    /* border: solid grey 1px; */
+}
+
+.applicationStack {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8%;
+    /* border: solid grey 1px; */
+}
+
+.appImage img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 20%;
+    border: solid #EEEEEE 1px;
+}
