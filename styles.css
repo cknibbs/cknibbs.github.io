@@ -1,6 +1,10 @@
+
+/* -----------Overwrite Defaults------------- */
+
 body {
     font-family: 'Helvetica', sans-serif;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 main {
@@ -30,8 +34,10 @@ h4 {
 }
 
 h5 {
-    color: #555555;
+    color: #444444;
     margin: 0;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 h6 {
@@ -49,22 +55,23 @@ p {
     font-size: 18px;
 }
 
+/* ------------Header-------------- */
 header {
+    align-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    min-width: 250px;
     padding: 10%;
-    flex: 1 1 100%;
     gap: 5px;
     /* border: solid grey 1px; */
 }
 
 hr {
+    min-width: 250px;
     padding-left: 10%;
     padding-right: 10%;
-    min-width: 250px;
-    max-width: 800px;
     border: solid #EEEEEE 0.5px;
 }
 
@@ -72,9 +79,10 @@ hr {
     min-width: 200px;
     max-width: 420px;
     border-radius: 50%;
-    border: solid #EEEEEE 1px;
+    /* border: solid #EEEEEE 1px; */
 }
 
+/* ------------Applications-------------- */
 .applicationStack {
     display: flex;
     gap: 20px;
@@ -91,7 +99,6 @@ hr {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    max-width: 800px;
     padding: 30px;
     background-color: #f8f8f8;
     border-radius: 20px;
@@ -119,6 +126,50 @@ hr {
     /* border: solid #EEEEEE 1px; */
 }
 
+/* ------------FAQ & Privacy Policy-------------- */
+.faq-container {
+    display: flex;
+    gap: 5px;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    /* border: solid #EEEEEE 1px; */
+    padding-left: 8%;
+    padding-right: 8%;
+
+  }
+
+  .faq-item {
+    overflow: hidden;
+    /* border: solid #EEEEEE 1px; */
+  }
+
+  .faq-question {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 16px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .faq-answer {
+    padding: 10px;
+    display: none;
+    /* border: solid #EEEEEE 1px; */
+  }
+
+  .faq-item.active .faq-answer {
+    display: block;
+  }
+
+  .faq-indicator {
+    float: left;
+  }
+
+/* ------------Links-------------- */
 .linksRow {
     display: flex;
     align-items: center;
