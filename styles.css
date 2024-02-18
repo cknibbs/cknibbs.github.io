@@ -52,7 +52,7 @@ p {
     color: #888888;
     margin: 0;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 /* ------------Header-------------- */
@@ -153,11 +153,16 @@ hr {
     border-radius: 16px;
     cursor: pointer;
     user-select: none;
+      /* border: solid #EEEEEE 1px; */
   }
 
   .faq-answer {
     padding: 10px;
     display: none;
+    color: #888888;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 16px;
     /* border: solid #EEEEEE 1px; */
   }
 
@@ -167,6 +172,8 @@ hr {
 
   .faq-indicator {
     float: left;
+    width: 30;
+    height: auto;
   }
 
 /* ------------Links-------------- */
