@@ -78,6 +78,7 @@ hr {
 .profilePicture img {
     min-width: 180px;
     max-width: 420px;
+    padding: 16px;
     border-radius: 50%;
     /* border: solid #EEEEEE 1px; */
 }
